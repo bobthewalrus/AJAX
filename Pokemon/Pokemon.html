@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pokemon</title>
+  <style>
+  .pokemon{
+    display: inline-block;
+  }
+  </style>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    var newdiv= $('<div><p>pina</p></div>')
+    function pokeimg(pokenum){
+      for(var i=1; i<=pokenum; i++){
+        $("#wrapper").append("<div class='pokemon'><img src='http://pokeapi.co/media/img/"+i+".png'></div>");
+      }
+    }
+    pokeimg(718);
+  })
+  </script>
+</head>
+<body>
+  <div id='wrapper'>
+  </div>
+</body>
+</html>

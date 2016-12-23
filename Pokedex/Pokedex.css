@@ -1,0 +1,29 @@
+*{
+    /*vertical-align: top;*/
+}
+div{
+    display: inline-block;
+  border:solid black 1px;
+  }
+#pokedexbox{
+    width:300px;
+    height:480px;
+    display: inline-block;
+    vertical-align: top;
+    position:fixed;
+    border: solid red 2px;
+    margin: 20px;
+    padding:20px;
+
+}
+
+#imgwrapper{
+    display: inline-block;
+    width:900px;
+    /*vertical-align: top;*/
+    /*position:fixed;*/
+
+}
+img{
+    /*vertical-align: top;*/
+}
